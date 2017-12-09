@@ -5,7 +5,7 @@
 * internet connection
 * git (optional)
 
-###
+### Installation
 * download scripts into your home folder
   * i.e. `git clone https://github.com/szyb/synoscripts.git`
 * `cd synoscripts/BingWallpaper`
