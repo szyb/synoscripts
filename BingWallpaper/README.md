@@ -2,6 +2,7 @@
 
 ### Requirements
 * root access
+* package php 7.0 installed
 * internet connection
 * git (optional)
 
