@@ -5,8 +5,8 @@ if (isset($argv[1])==false)
     exit;
 }
 $userName=$argv[1];
-#parameters (may be changed)
 $installationDir=$argv[2];
+#parameters (may be changed)
 $locale="pl-PL"; # en-GB, en-US, en-NZ, de-DE, itp.
 $resolution="1920x1080"; # 1920x1200, #1080x1920
 
