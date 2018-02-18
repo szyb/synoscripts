@@ -10,6 +10,6 @@ fi
 
 ./setup.sh
 
-php70 -d extension=gd.so /var/services/homes/$1/$2/BingWallpaperText.php $1 $2
+php70 -d extension=gd.so /var/services/homes/$1/$2/start.php $1 $2
 
 
