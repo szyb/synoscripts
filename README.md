@@ -1,4 +1,4 @@
 # synoscripts
 scripts to Synology's DSM system
 
-* BingWallpaper - scripts to set up daily Bing wallpaper to DSM local profile
+* DailyWallpaper - scripts to set up daily Bing or Unsplash wallpaper to DSM local profile
