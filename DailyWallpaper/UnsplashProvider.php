@@ -16,7 +16,7 @@ class UnsplashProvider extends ProviderAbstract
         parent::__construct($userName, $installationDir);
 
         $this->resolution="1920x1080"; # 1920x1200, #1080x1920
-        $this->imageUrl = "http://source.unsplash.com/random/".$this->resolution;
+        $this->imageUrl = "https://source.unsplash.com/random/".$this->resolution;
     }
 
     public function GetAndSaveImage()
