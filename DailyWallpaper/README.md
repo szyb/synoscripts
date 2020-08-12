@@ -11,7 +11,7 @@
   * i.e. `git clone https://github.com/szyb/synoscripts.git`
 * `cd synoscripts/DailyWallpaper`
 * `chmod 700 *.sh`
-* setup custom wallpaper on your account (profile -> personal -> desctop tab -> check 'Customize wallpaper' -> select image (type: strech))
+* setup custom wallpaper on your account (profile -> personal -> desktop tab -> check 'Customize wallpaper' -> select image (type: strech))
 * create cron entry "user defined script" (via control panel -> task scheduler)
   * task name: i.e. DailyWallpaper
   * user: root
