@@ -7,7 +7,7 @@
 
 ### Installation
 * download scripts into your home folder
-  * i.e. `git clone https://github.com/szyb/synoscripts.git`
+  * i.e. `git clone --branch dsm7 https://github.com/szyb/synoscripts.git`
 * `cd synoscripts/DailyWallpaper`
 * `chmod 700 *.sh`
 * setup custom wallpaper on your account (options -> personal -> "Display Preferences" tab -> check 'Customize background' -> select image (type: strech))
