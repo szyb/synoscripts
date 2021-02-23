@@ -10,6 +10,6 @@ fi
 
 ./setup.sh
 
-php70 -d extension=gd.so -d extension=openssl.so /var/services/homes/$1/$2/start.php $1 $2 $3
+php74 -d extension=gd.so -d extension=openssl.so /var/services/homes/$1/$2/start.php $1 $2 $3
 
 
