@@ -1,4 +1,4 @@
-
+This instruction works for DSM 6.x. For DSM 7 Beta please switch to dsm7 branch
 
 ### Requirements
 * root access
