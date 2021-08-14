@@ -1,4 +1,4 @@
-This instruction works only for DSM 7. For DSM 6 please switch to the master branch
+This instruction works only for DSM 7. For DSM 6 please switch to the dsm6 branch
 
 ### Requirements
 * root access
