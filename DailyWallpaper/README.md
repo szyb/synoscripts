@@ -1,19 +1,20 @@
-This instruction works for DSM 6.x. For DSM 7 Beta please switch to dsm7 branch
+This instruction works only for DSM 7. For DSM 6 please switch to the master branch
 
 ### Requirements
 * root access
-* package php 7.0 installed
+* package php 7.4 installed
 * internet connection
-* git (optional)
+* ssh & git (both optional)
 
 ### Installation
 * download scripts into your home folder
-  * i.e. `git clone https://github.com/szyb/synoscripts.git`
-* `cd synoscripts/DailyWallpaper`
-* `chmod 700 *.sh`
-* setup custom wallpaper on your account (profile -> personal -> desktop tab -> check 'Customize wallpaper' -> select image (type: strech))
-* create cron entry "user defined script" (via control panel -> task scheduler)
-  * task name: i.e. DailyWallpaper
+ 
+  * i.e. `git clone --branch dsm7 https://github.com/szyb/synoscripts.git`
+  * `cd synoscripts/DailyWallpaper`
+  * `chmod 700 *.sh`
+* setup custom wallpaper on your account (options -> personal -> "Display Preferences" tab -> check 'Customize background' -> select image (type: strech))
+* Open Control Panel -> Task Scheduler -> Create -> Scheduler task -> User-defined script
+  * task: i.e. DailyWallpaper
   * user: root
   * schedule: daily /once a day on i.e. 9:00 AM
   * run command:
@@ -24,10 +25,10 @@ This instruction works for DSM 6.x. For DSM 7 Beta please switch to dsm7 branch
   * example script command:
   <pre>
   cd /var/services/homes/szyb/synoscripts/DailyWallpaper
-  ./start.sh szyb 'synoscripts/DailyWallpaper Random
+  ./start.sh szyb synoscripts/DailyWallpaper Random
   </pre>
   * optional: check "send run details by e-mail"
 ### Check:
- * run cron script (button "run")
+ * run task (button "run")
  * logout
- * login and check wallpaper
+ * login again and enjoy your new and changing daily wallpaper :)

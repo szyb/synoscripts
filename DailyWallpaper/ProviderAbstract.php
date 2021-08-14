@@ -23,7 +23,7 @@ abstract class ProviderAbstract
 
     protected function GetImgSynoPath()
     {
-        return "/usr/syno/etc/preference/".$this->userName."/wallpaper";
+        return "/usr/syno/etc/preference/".$this->userName."/wallpaper_dir/wallpaper_hd";
     }
 
     protected function ApplyCredits($text)

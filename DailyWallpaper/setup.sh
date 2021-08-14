@@ -4,6 +4,6 @@ then
     echo "found"
 else
     echo -n "missing. Copying file gd.so..."
-    cp "/volume1/@appstore/PHP7.0/usr/local/lib/php70/modules/gd.so" "/usr/lib/php/modules"
+    cp "/volume1/@appstore/PHP7.4/usr/local/lib/php74/modules/gd.so" "/usr/lib/php/modules"
     echo "Ok"
 fi
