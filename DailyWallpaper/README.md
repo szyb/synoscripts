@@ -1,15 +1,17 @@
+This instruction works only for DSM 7. For DSM 6 please switch to the master branch
 
 ### Requirements
 * root access
 * package php 7.4 installed
 * internet connection
-* git (optional)
+* ssh & git (both optional)
 
 ### Installation
 * download scripts into your home folder
+ 
   * i.e. `git clone --branch dsm7 https://github.com/szyb/synoscripts.git`
-* `cd synoscripts/DailyWallpaper`
-* `chmod 700 *.sh`
+  * `cd synoscripts/DailyWallpaper`
+  * `chmod 700 *.sh`
 * setup custom wallpaper on your account (options -> personal -> "Display Preferences" tab -> check 'Customize background' -> select image (type: strech))
 * Open Control Panel -> Task Scheduler -> Create -> Scheduler task -> User-defined script
   * task: i.e. DailyWallpaper
