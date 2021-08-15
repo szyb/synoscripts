@@ -1,15 +1,18 @@
-This instruction works only for DSM 7. For DSM 6 please switch to the dsm6 branch
+This instruction works only for DSM 7. For DSM 6 please switch to the `dsm6` branch
 
 ### Requirements
 * root access
-* package php 7.4 installed
-* internet connection
-* ssh & git (both optional)
+* Package PHP 7.4 installed
+* Package Git installed
+* Internet connection
+* SSH turned on (at least for the installation) (Control Panel => Terminal Services => Enable SSH service)
+* Basic linux skills
 
-### Installation
+### Installation (with ssh & git)
 * download scripts into your home folder
- 
-  * i.e. `git clone --branch dsm7 https://github.com/szyb/synoscripts.git`
+  * log in to your device via SSH. In Windows 10 you can do it in PowerShell, i.e. type `ssh username@deviceIP` and provide your password. You can also use Putty application. Username should be administrator account.
+  * clone the repository from GitHub, type:
+  * `git clone https://github.com/szyb/synoscripts.git`
   * `cd synoscripts/DailyWallpaper`
   * `chmod 700 *.sh`
 * setup custom wallpaper on your account (options -> personal -> "Display Preferences" tab -> check 'Customize background' -> select image (type: strech))
