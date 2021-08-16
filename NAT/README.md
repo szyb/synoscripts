@@ -19,7 +19,7 @@ openvswitch=`ifconfig | grep ovs_eth | wc -l`
 if [ $openvswitch -eq "0" ]; then 
   interface=eth0
 else
-  interface=ovh_eth0
+  interface=ovs_eth0
 fi
 iptables -t nat -A POSTROUTING -s 192.168.1.0/24 -o $interface -j MASQUERADE
 ```
