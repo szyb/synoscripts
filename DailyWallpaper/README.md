@@ -2,7 +2,7 @@ This instruction works only for DSM 7. For DSM 6 please switch to the dsm6 branc
 
 ### Requirements
 * root access
-* package php 7.4 installed
+* package php 8.2 installed
 * internet connection
 * ssh & git (both optional)
 
