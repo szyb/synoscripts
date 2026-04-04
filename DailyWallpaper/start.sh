@@ -8,8 +8,5 @@ if [ -z $2 ]; then
     exit
 fi
 
-./setup.sh
-
-php82 -d extension=gd.so -d extension=openssl.so /var/services/homes/$1/$2/start.php $1 $2 $3
-
+php82 /var/services/homes/$1/$2/start.php $1 $2 $3
 
